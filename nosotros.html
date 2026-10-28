@@ -3,121 +3,125 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Catálogo · UETEX</title>
-<meta name="description" content="Catálogo de uniformes industriales: pantalones, polos y chalecos de alta calidad.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/webp" href="assets/img/logo-mono.webp">
+<title>Nosotros · EUTEX</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Conoce a EUTEX, taller de uniformes industriales en Gamarra, Lima.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
-  <div class="wrap bar">
-    <a class="brand" href="index.html" aria-label="UETEX, ir al inicio"><img src="img/logo-uetex-white.png" alt="UETEX Uniformes Industriales" width="150"></a>
-    <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-    <nav class="nav" aria-label="Principal">
-      <a href="index.html">Inicio</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="catalogo.html" aria-current="page">Catálogo</a>
-      <a href="contacto.html">Contacto</a>
-      <a class="cta-nav" href="contacto.html">Cotizar</a>
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="EUTEX, ir al inicio">
+      <img src="assets/img/logo-mono.webp" alt="" width="62" height="34">
+      <span><b>EUTEX</b><small>Uniformes Industriales</small></span>
+    </a>
+    <nav aria-label="Menú principal">
+      <ul class="menu" id="menu"><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html" aria-current="page">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="contacto.html">Contacto</a></li><li class="menu-cta"><a class="btn btn-gold" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20cotizar%20uniformes." target="_blank" rel="noopener">Cotizar por WhatsApp</a></li></ul>
     </nav>
+    <a class="btn btn-gold nav-cta" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20cotizar%20uniformes." target="_blank" rel="noopener">Cotizar ahora</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </div>
 </header>
-<main>
+<main id="contenido">
 <section class="page-hero">
-  <div class="bg"><img data-parallax="0.18" src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop" alt=""></div>
-  <div class="wrap">
-    <div>
-      <div class="crumbs"><a href="index.html">Inicio</a><span>/</span><span>Catálogo</span></div>
-      <h1><span class="l"><span>Nuestro</span></span><span class="l"><span>Catálogo</span></span></h1>
-      <p class="lead">Explora nuestra selección de uniformes industriales diseñados para ofrecer la máxima durabilidad, comodidad y seguridad en el trabajo.</p>
+  <div class="obra obra-nosotros" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <div class="rv">
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Nosotros</span></nav>
+      <h1>Somos <em>EUTEX</em>.</h1>
+      <p>Un taller de confección que viste a los equipos de trabajo de empresas en todo Lima.</p>
     </div>
-    <div class="titleblock" aria-hidden="true">
-      <div>Línea<b>UETEX-03</b></div><div>Hoja<b>03 de 04</b></div>
-      <div class="full">Proyecto<b>UETEX · Catálogo</b></div>
+    <div class="art" aria-hidden="true"><img src="assets/img/polo-azul.webp" alt="" width="300" height="520"></div>
+  </div>
+  <div class="tape"></div>
+</section>
+<section class="sec">
+  <div class="wrap split">
+    <div class="txt rv">
+      <span class="eyebrow">Nuestra historia</span>
+      <h2 style="font-weight:850;font-variation-settings:'wdth' 108;font-size:clamp(30px,4.2vw,48px);margin:12px 0 22px">Calidad para tu equipo.</h2>
+      <p>En EUTEX diseñamos y confeccionamos <strong>uniformes industriales para empresas</strong> que necesitan vestir a su personal con prendas cómodas, resistentes y seguras. Trabajamos telas como drill, piqué y jersey de algodón, y aplicamos cinta reflectiva en las prendas de alta visibilidad.</p>
+      <p>Atendemos <strong>pedidos por volumen</strong> y personalizamos cada prenda con el logo de tu empresa. Te asesoramos para elegir la tela, el color y el modelo según el tipo de trabajo de tu equipo.</p>
+      <p>Nuestro objetivo es simple: que tu personal trabaje cómodo y que tu empresa se vea profesional en cada obra, planta o almacén.</p>
     </div>
+    <figure class="photo rv">
+  <img src="assets/img/foto-trabajador.webp" alt="Trabajador sonriente con casco y chaleco de alta visibilidad naranja en un almacén" width="492" height="492">
+  <figcaption><img src="assets/img/logo-mono.webp" alt="" width="44" height="24"><span><strong>Hecho en Gamarra</strong>Confección propia en Lima</span></figcaption>
+</figure>
   </div>
 </section>
-<section class="sec blueprint">
-  <div class="wrap">
-    <div class="catalog-controls" role="group" aria-label="Filtrar por categoría">
-      <button data-f="all" aria-pressed="true">Todos</button>
-      <button data-f="pantalon" aria-pressed="false">Pantalones</button>
-      <button data-f="polo" aria-pressed="false">Polos</button>
-      <button data-f="chaleco" aria-pressed="false">Chalecos</button>
-    </div>
 
-    <div class="product-grid" id="product-grid">
-      <!-- Los productos se renderizarán con JS -->
+<section class="sec navy">
+  <div class="wrap">
+    <div class="mv">
+      <article class="rv"><span class="eyebrow">Misión</span><h3>Vestir equipos seguros.</h3><p>Confeccionar uniformes industriales resistentes, cómodos y personalizados, que protejan al trabajador y representen bien a cada empresa.</p></article>
+      <article class="rv"><span class="eyebrow">Visión</span><h3>Ser tu taller de confianza.</h3><p>Ser reconocidos como una marca de uniformes industriales de referencia en Gamarra por nuestra calidad, cumplimiento y atención cercana.</p></article>
     </div>
   </div>
 </section>
-<section class="cta-band"><div class="wrap">
-  <h2 class="reveal">¿No encuentras lo que buscas?</h2>
-  <a class="btn btn-primary reveal d1" href="contacto.html">Contáctanos para una cotización a medida <span class="arr">→</span></a>
-</div></section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head rv"><div><span class="eyebrow">Nuestros valores</span><h2>Lo que nos define.</h2></div></div>
+    <div class="cards3">
+  <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4v5c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V7l8-4z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><h3>Resistencia</h3><p>Costuras reforzadas y telas pensadas para el uso diario en obra, planta y almacén.</p></article>
+  <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div><h3>Visibilidad</h3><p>Colores de alta visibilidad y cinta reflectiva para que tu equipo sea visto en todo momento.</p></article>
+  <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.4 14.6l-5.8 5.8a2 2 0 01-2.8 0L3 11.6V3h8.6l8.8 8.8a2 2 0 010 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg></div><h3>Tu marca</h3><p>Bordamos o estampamos el logo de tu empresa para que tu personal la represente.</p></article>
+</div>
+  </div>
+</section>
+
+<section class="sec navy">
+  <div class="wrap">
+    <div class="sec-head rv"><div><span class="eyebrow">Cómo trabajamos</span><h2>Cuatro pasos.</h2></div>
+      <p>Te acompañamos desde la cotización hasta la entrega.</p></div>
+    <div class="process">
+  <div class="step rv"><div class="n">01</div><h3>Cotización</h3><p>Nos cuentas qué prendas, cantidades y tallas necesitas.</p></div>
+  <div class="step rv"><div class="n">02</div><h3>Muestra</h3><p>Validamos tela, color y ubicación del logo contigo.</p></div>
+  <div class="step rv"><div class="n">03</div><h3>Confección</h3><p>Producimos tu pedido en nuestro taller de Gamarra.</p></div>
+  <div class="step rv"><div class="n">04</div><h3>Entrega</h3><p>Recibes tus uniformes listos para usar.</p></div>
+</div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head rv"><div><span class="eyebrow">Por qué elegirnos</span><h2>Taller propio, trato directo.</h2></div></div>
+    <div class="cards3">
+      <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 5L7 17M17 3l4 4-2 2-4-4z"/><path d="M7 17l-3 4 4-3"/><path d="M3 12c3-1 5 1 4 4"/></svg></div><h3>Confección propia</h3><p>Producimos en nuestro taller de Gamarra, sin intermediarios.</p></article>
+      <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>Pedidos por volumen</h3><p>Preparamos uniformes para equipos pequeños y grandes.</p></article>
+      <article class="value rv"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></svg></div><h3>Atención directa</h3><p>Te atendemos por WhatsApp y correo para resolver tus dudas.</p></article>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap inner">
+    <div class="rv"><h2>¿Necesitas uniformes?</h2><p>Cuéntanos qué prendas y cantidades necesitas y te enviamos una cotización.</p></div>
+    <div class="acts rv"><a class="btn btn-gold" href="contacto.html">Solicitar cotización <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn-ghost" href="productos.html">Ver productos</a></div>
+  </div>
+</section>
 </main>
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="f-top">
-      <div><img src="img/logo-uetex-white.png" alt="UETEX" width="150"><p>Uniformes industriales de alta calidad para los sectores más exigentes. Diseño, confección y venta.</p></div>
-      <div><h4>Mapa del sitio</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
-      <div><h4>Productos</h4><ul><li><a href="catalogo.html?filter=pantalon">Pantalones</a></li><li><a href="catalogo.html?filter=polo">Polos</a></li><li><a href="catalogo.html?filter=chaleco">Chalecos</a></li></ul></div>
-      <div><h4>Contacto</h4><ul><li>(+51) 987 654 321</li><li>ventas@uetex.com</li><li>Lima, Perú</li></ul></div>
+<footer>
+  <div class="tape"></div>
+  <div class="wrap foot">
+    <div class="brandcol">
+      <a class="brand" href="index.html"><img src="assets/img/logo-mono-white.webp" alt="" width="62" height="34"><span><b>EUTEX</b><small>Uniformes Industriales</small></span></a>
+      <p class="about">Confección de uniformes industriales en Gamarra, Lima. Polos, pantalones drill, chalecos y poleras de alta visibilidad.</p>
     </div>
-    <div class="big-word" aria-hidden="true">UETEX</div>
-    <div class="f-bottom"><span>© 2026 UETEX Uniformes Industriales</span><span>www.uetex.com</span></div>
+    <div><h4>Páginas</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+    <div><h4>Contacto</h4><ul><li>920 783 202</li><li>eutex@ventas.com</li><li>e20huaccachi@gmail.com</li><li>Gamarra, Lima</li></ul></div>
   </div>
+  <div class="wrap foot-bottom"><span>© <span id="year">2026</span> EUTEX Uniformes Industriales</span><span>Imágenes referenciales</span></div>
 </footer>
-<a class="wa" href="https://wa.me/51987654321" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
-
-<script>
-  // Datos de los productos
-  const products = [
-    { id: 1, name: 'Pantalón de Trabajo Reforzado', category: 'pantalon', price: 89.90, image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1887&auto=format&fit=crop' },
-    { id: 2, name: 'Polo Industrial Manga Corta', category: 'polo', price: 49.90, image: 'https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?q=80&w=2071&auto=format&fit=crop' },
-    { id: 3, name: 'Chaleco de Alta Visibilidad', category: 'chaleco', price: 119.90, image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop' },
-    { id: 4, name: 'Pantalón Cargo Industrial', category: 'pantalon', price: 79.90, image: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1887&auto=format&fit=crop' },
-    { id: 5, name: 'Polo Térmico de Alta Montaña', category: 'polo', price: 59.90, image: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1915&auto=format&fit=crop' },
-    { id: 6, name: 'Chaleco Acolchado Térmico', category: 'chaleco', price: 99.90, image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1972&auto=format&fit=crop' },
-    { id: 7, name: 'Pantalón Multipocket', category: 'pantalon', price: 109.90, image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=1887&auto=format&fit=crop' },
-    { id: 8, name: 'Polo de Manga Larga Industrial', category: 'polo', price: 69.90, image: 'https://images.unsplash.com/photo-1618354691551-44de113f0164?q=80&w=1915&auto=format&fit=crop' },
-    { id: 9, name: 'Chaleco Deportivo de Trabajo', category: 'chaleco', price: 89.90, image: 'https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1789&auto=format&fit=crop' },
-  ];
-
-  const productGrid = document.getElementById('product-grid');
-
-  function renderProducts(filter) {
-    productGrid.innerHTML = '';
-    const filteredProducts = filter === 'all' ? products : products.filter(p => p.category === filter);
-
-    filteredProducts.forEach(product => {
-      const card = document.createElement('div');
-      card.className = 'product-card';
-      card.setAttribute('data-category', product.category);
-      card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
-        <div class="card-info">
-          <span class="category">${product.category}</span>
-          <h3>${product.name}</h3>
-          <div class="price">S/ ${product.price.toFixed(2)}</div>
-          <button class="btn btn-add" onclick="alert('Producto ${product.name} añadido a la cotización')">Añadir a Cotización</button>
-        </div>
-      `;
-      productGrid.appendChild(card);
-    });
-  }
-
-  // Renderizado inicial
-  const urlParams = new URLSearchParams(window.location.search);
-  const filter = urlParams.get('filter') || 'all';
-  renderProducts(filter);
-
-  // Actualizar los botones de filtro para reflejar el estado inicial
-  document.querySelectorAll('.catalog-controls button').forEach(btn => {
-    btn.setAttribute('aria-pressed', btn.dataset.f === filter);
-  });
-
-</script>
-<script src="js/app.js"></script>
+<a class="wa-float" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20uniformes." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6c1.8 1 3.7 1.5 5.7 1.5 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5z"/></svg></a>
+<script src="assets/main.js"></script>
 </body>
 </html>

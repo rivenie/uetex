@@ -3,82 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Contacto · UETEX</title>
-<meta name="description" content="Póngase en contacto con UETEX para cotizar sus uniformes industriales.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/webp" href="assets/img/logo-mono.webp">
+<title>Contacto · EUTEX</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Cotiza uniformes industriales con EUTEX por WhatsApp o correo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
-  <div class="wrap bar">
-    <a class="brand" href="index.html" aria-label="UETEX, ir al inicio"><img src="img/logo-uetex-white.png" alt="UETEX Uniformes Industriales" width="150"></a>
-    <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-    <nav class="nav" aria-label="Principal">
-      <a href="index.html">Inicio</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="contacto.html" aria-current="page">Contacto</a>
-      <a class="cta-nav" href="contacto.html">Cotizar</a>
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="EUTEX, ir al inicio">
+      <img src="assets/img/logo-mono.webp" alt="" width="62" height="34">
+      <span><b>EUTEX</b><small>Uniformes Industriales</small></span>
+    </a>
+    <nav aria-label="Menú principal">
+      <ul class="menu" id="menu"><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="contacto.html" aria-current="page">Contacto</a></li><li class="menu-cta"><a class="btn btn-gold" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20cotizar%20uniformes." target="_blank" rel="noopener">Cotizar por WhatsApp</a></li></ul>
     </nav>
+    <a class="btn btn-gold nav-cta" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20cotizar%20uniformes." target="_blank" rel="noopener">Cotizar ahora</a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
   </div>
 </header>
-<main>
+<main id="contenido">
 <section class="page-hero">
-  <div class="bg"><img data-parallax="0.18" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop" alt=""></div>
-  <div class="wrap">
-    <div>
-      <div class="crumbs"><a href="index.html">Inicio</a><span>/</span><span>Contacto</span></div>
-      <h1><span class="l"><span>Hablemos de</span></span><span class="l"><span>tu proyecto</span></span></h1>
-      <p class="lead">Cuéntanos qué necesitas y te prepararemos una cotización personalizada sin compromiso.</p>
+  <div class="obra obra-contacto" aria-hidden="true"></div>
+  <div class="wrap inner">
+    <div class="rv">
+      <nav class="crumbs" aria-label="Ruta"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Contacto</span></nav>
+      <h1>Cotiza <em>con nosotros</em>.</h1>
+      <p>Escríbenos por WhatsApp o correo y te respondemos con precios por volumen.</p>
     </div>
-    <div class="titleblock" aria-hidden="true">
-      <div>Línea<b>UETEX-04</b></div><div>Hoja<b>04 de 04</b></div>
-      <div class="full">Proyecto<b>UETEX · Contacto</b></div>
-    </div>
+    <div class="art" aria-hidden="true"><img src="assets/img/polera-ml.webp" alt="" width="300" height="520"></div>
   </div>
+  <div class="tape"></div>
 </section>
-<section class="sec blueprint">
+<section class="sec">
   <div class="wrap contact-grid">
-    <div>
-      <span class="eyebrow reveal">Datos de contacto</span>
-      <h2 class="reveal" style="font-size:clamp(40px,4.6vw,62px);text-transform:uppercase;margin:16px 0 30px">Estamos para ayudarte</h2>
-      <div class="c-list">
-        <div class="c-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><div><small>Teléfono / WhatsApp</small><div class="v">(+51) 987 654 321</div></div><button class="copy" type="button" data-copy="+51987654321">Copiar</button></div>
-        <div class="c-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg></span><div><small>Ventas</small><div class="v">ventas@uetex.com</div></div><button class="copy" type="button" data-copy="ventas@uetex.com">Copiar</button></div>
-        <div class="c-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span><div><small>Taller y Oficina</small><div class="v sm">Av. Los Frutales 123, Ate, Lima</div></div><a class="copy" href="https://www.google.com/maps/search/?api=1&query=Av.+Los+Frutales+123+Ate+Lima" target="_blank" rel="noopener" style="text-decoration:none">Mapa</a></div>
-      </div>
+    <div class="cinfo rv">
+      <span class="eyebrow">Datos de contacto</span>
+      <div class="crow"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></svg></span><span class="t"><small>Teléfono y WhatsApp</small><b>920 783 202</b></span><button class="copy" type="button" data-copy="920783202">Copiar</button></div>
+      <div class="crow"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span><span class="t"><small>Ventas</small><b>eutex@ventas.com</b></span><button class="copy" type="button" data-copy="eutex@ventas.com">Copiar</button></div>
+      <div class="crow"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span><span class="t"><small>Correo</small><b>e20huaccachi@gmail.com</b></span><button class="copy" type="button" data-copy="e20huaccachi@gmail.com">Copiar</button></div>
+      <a class="crow" href="https://www.google.com/maps/search/?api=1&amp;query=Gamarra%2C%20La%20Victoria%2C%20Lima" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span class="t"><small>Ubicación</small><b>Gamarra, Lima</b></span><span class="copy" aria-hidden="true">Ver mapa ↗</span></a>
+      <a class="btn btn-wa" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20cotizar%20uniformes." target="_blank" rel="noopener" style="margin-top:6px"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6c1.8 1 3.7 1.5 5.7 1.5 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5z"/></svg> Escribir por WhatsApp</a>
     </div>
-    <form class="form reveal" id="contact-form" novalidate>
-      <span class="eyebrow">Solicitud de cotización</span>
-      <h2>Escríbenos</h2>
-      <p>Completa el formulario y prepararemos un mensaje para enviarlo directo por WhatsApp a nuestro equipo de ventas.</p>
-      <div class="fgrid">
-        <div class="field"><label for="c-nombre">Nombre</label><input id="c-nombre" name="nombre" autocomplete="name"><span class="err"></span></div>
-        <div class="field"><label for="c-empresa">Empresa</label><input id="c-empresa" name="empresa" autocomplete="organization"><span class="err"></span></div>
-        <div class="field"><label for="c-telefono">Teléfono</label><input id="c-telefono" name="telefono" type="tel" autocomplete="tel"><span class="err"></span></div>
-        <div class="field"><label for="c-servicio">Producto de interés</label><select id="c-servicio" name="servicio"><option value="">Selecciona una categoría</option><option>Pantalones</option><option>Polos</option><option>Chalecos</option><option>Otro (especificar en mensaje)</option></select><span class="err"></span></div>
-        <div class="field full"><label for="c-mensaje">Mensaje</label><textarea id="c-mensaje" name="mensaje" placeholder="Describe las cantidades, tallas, tipo de tela y cualquier requerimiento especial."></textarea><span class="err"></span></div>
-      </div>
-      <button class="btn btn-primary" type="submit">Preparar mensaje <span class="arr">→</span></button>
-      <div class="sent" id="form-result" hidden></div>
-      <p class="note">También puedes escribirnos a ventas@uetex.com</p>
+    <form class="form rv" id="qform" novalidate>
+      <h2>Solicita tu cotización</h2>
+      <p class="sub">Completa los datos y envíalos directo a nuestro WhatsApp.</p>
+      <div class="field"><label for="f-nombre">Nombre</label><input id="f-nombre" name="nombre" autocomplete="name" placeholder="Tu nombre"></div>
+      <div class="field"><label for="f-empresa">Empresa</label><input id="f-empresa" name="empresa" autocomplete="organization" placeholder="Razón social"></div>
+      <div class="field"><label for="f-producto">Producto</label><select id="f-producto" name="producto"><option value="">Varios productos</option></select></div>
+      <div class="field"><label for="f-cantidad">Cantidad aprox.</label><input id="f-cantidad" name="cantidad" inputmode="numeric" placeholder="Ej. 50 unidades"></div>
+      <div class="field full"><label for="f-mensaje">Mensaje</label><textarea id="f-mensaje" name="mensaje" placeholder="Tallas, colores, si llevará logo bordado o estampado…"></textarea></div>
+      <a class="btn btn-gold send" id="send" href="https://wa.me/51920783202" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6c1.8 1 3.7 1.5 5.7 1.5 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5z"/></svg> Enviar por WhatsApp</a>
+      <p class="hint">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
     </form>
   </div>
 </section>
-</main>
-<footer class="site-footer">
+<section class="sec navy">
   <div class="wrap">
-    <div class="f-top">
-      <div><img src="img/logo-uetex-white.png" alt="UETEX" width="150"><p>Uniformes industriales de alta calidad para los sectores más exigentes. Diseño, confección y venta.</p></div>
-      <div><h4>Mapa del sitio</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
-      <div><h4>Productos</h4><ul><li><a href="catalogo.html?filter=pantalon">Pantalones</a></li><li><a href="catalogo.html?filter=polo">Polos</a></li><li><a href="catalogo.html?filter=chaleco">Chalecos</a></li></ul></div>
-      <div><h4>Contacto</h4><ul><li>(+51) 987 654 321</li><li>ventas@uetex.com</li><li>Lima, Perú</li></ul></div>
+    <div class="sec-head rv"><div><span class="eyebrow">Preguntas frecuentes</span><h2>Antes de cotizar.</h2></div></div>
+    <div class="faq rv">
+      <details><summary>¿Pueden poner el logo de mi empresa?</summary><p>Sí. Bordamos o estampamos el logo de tu empresa en polos, poleras, chalecos y pantalones.</p></details>
+      <details><summary>¿Qué tallas trabajan?</summary><p>Confeccionamos en tallas S, M, L, XL y XXL. Si necesitas otra talla, consúltanos.</p></details>
+      <details><summary>¿Atienden pedidos por volumen?</summary><p>Sí, preparamos uniformes para equipos de trabajo completos. Escríbenos con la cantidad aproximada y te cotizamos.</p></details>
+      <details><summary>¿Cómo solicito una cotización?</summary><p>Completa el formulario de esta página o escríbenos por WhatsApp al 920 783 202 indicando prendas, cantidades y tallas.</p></details>
     </div>
-    <div class="big-word" aria-hidden="true">UETEX</div>
-    <div class="f-bottom"><span>© 2026 UETEX Uniformes Industriales</span><span>www.uetex.com</span></div>
   </div>
+</section>
+</main>
+<footer>
+  <div class="tape"></div>
+  <div class="wrap foot">
+    <div class="brandcol">
+      <a class="brand" href="index.html"><img src="assets/img/logo-mono-white.webp" alt="" width="62" height="34"><span><b>EUTEX</b><small>Uniformes Industriales</small></span></a>
+      <p class="about">Confección de uniformes industriales en Gamarra, Lima. Polos, pantalones drill, chalecos y poleras de alta visibilidad.</p>
+    </div>
+    <div><h4>Páginas</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="productos.html">Productos</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+    <div><h4>Contacto</h4><ul><li>920 783 202</li><li>eutex@ventas.com</li><li>e20huaccachi@gmail.com</li><li>Gamarra, Lima</li></ul></div>
+  </div>
+  <div class="wrap foot-bottom"><span>© <span id="year">2026</span> EUTEX Uniformes Industriales</span><span>Imágenes referenciales</span></div>
 </footer>
-<a class="wa" href="https://wa.me/51987654321" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
-<script src="js/app.js"></script>
+<a class="wa-float" href="https://wa.me/51920783202?text=Hola%20EUTEX%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20uniformes." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 .1 5.3.1 11.9c0 2.1.6 4.2 1.6 6L0 24l6.3-1.6c1.8 1 3.7 1.5 5.7 1.5 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.5z"/></svg></a>
+<script src="assets/main.js"></script>
 </body>
 </html>
